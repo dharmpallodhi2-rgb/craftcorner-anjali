@@ -50,7 +50,6 @@
             </nav>
 
             <div class="flex items-center gap-3">
-                <!-- HERO/NAV ORDER NOW BUTTON -->
                 <a href="#customize" class="bg-gray-900 hover:bg-pink-600 text-white px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all shadow-xs hover:shadow-md">
                     Order Now <i class="fas fa-arrow-right ml-1"></i>
                 </a>
@@ -70,7 +69,7 @@
                 <span class="gradient-text">लक्ज़री बुके और कस्टमाइज्ड गिफ्ट्स</span> के साथ
             </h1>
             <p class="max-w-2xl mx-auto text-sm sm:text-base text-gray-500 mb-10 leading-relaxed">
-                फाइल 1000006466.jpg की भव्यता से लेकर फाइल 1000006468.jpg की सादगी तक—हम आपकी पसंद के अनुसार प्रीमियम चॉकलेट्स, प्यारे टेडी और यूनिक डेकोरेशन को मिलाकर एकदम प्रोफेशनल गिफ्ट्स तैयार करते हैं।
+                हम आपकी पसंद के अनुसार प्रीमियम चॉकलेट्स, प्यारे टेडी और यूनिक डेकोरेशन को मिलाकर एकदम प्रोफेशनल गिफ्ट्स तैयार करते हैं।
             </p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="#gallery" class="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-95 text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-pink-500/20 text-xs uppercase tracking-wider transition">
@@ -84,34 +83,34 @@
     </section>
 
     <!-- PREMIUM PRODUCTS GALLERY SECTION -->
-    <section id="gallery" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" x-data="{ 
+    <section id="gallery" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20" x-data={{ 
         activeImg: '', 
         openModal(src) { this.activeImg = src; },
         closeModal() { this.activeImg = ''; }
-    }">
+    }}>
         <div class="text-center mb-16">
             <h2 class="text-2xl sm:text-3xl font-black text-gray-950 tracking-tight uppercase">हमारा सिग्नेचर कलेक्शन</h2>
-            <p class="text-xs text-gray-400 mt-2 max-w-md mx-auto">बारीकी और प्रीमियम फिनिशिंग के साथ डिजाइन किए गए हमारे चार सबसे लोकप्रिय लाइव सैंपल्स</p>
+            <p class="text-xs text-gray-400 mt-2 max-w-md mx-auto">बारीकी और प्रीमियम फिनिशिंग के साथ डिजाइन किए गए हमारे लाइव सैंपल्स</p>
             <div class="h-1 w-10 bg-gradient-to-r from-pink-600 to-purple-600 mx-auto mt-4 rounded-full"></div>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             
-            <!-- Item 1 (Image 1000006466.jpg Reference) -->
+            <!-- Item 1 (Your Uploaded Image IMG_20260620_170301_379.jpg Reference) -->
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-xs hover:shadow-xl transition duration-300 flex flex-col justify-between">
                 <div>
-                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('YOUR_IMAGE_URL_1')">
-                        <img src="YOUR_IMAGE_URL_1" alt="Mega Premium Cosmetic & Chocolate Bouquet" class="w-full h-full object-cover">
-                        <span class="absolute top-4 left-4 bg-gray-900/90 backdrop-blur-md text-white text-[9px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase">Luxury Combo</span>
+                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('./IMG_20260620_170301_379.jpg')">
+                        <img src="./IMG_20260620_170301_379.jpg" alt="Featured Handcrafted Bouquet" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-gray-900/90 backdrop-blur-md text-white text-[9px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase">New Arrival</span>
                     </div>
                     <div class="p-5">
-                        <h3 class="font-extrabold text-gray-900 text-sm tracking-tight">Premium Cosmetics & Chocolate Mega Bouquet</h3>
-                        <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">डेयरी मिल्क, किटकैट, आर्टिफीसियल रेड रोज़ेज़, नेल आर्ट किट और गॉर्जियस पिन्क रैपिंग का बेहतरीन कॉम्बिनेशन।</p>
+                        <h3 class="font-extrabold text-gray-900 text-sm tracking-tight">Handcrafted Premium Special Bouquet</h3>
+                        <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">प्रीमियम रैपिंग शीट्स, सुंदर रिबन और चुनिंदा आइटम्स के साथ तैयार किया गया कस्टमाइज्ड आर्टवर्क।</p>
                     </div>
                 </div>
                 <div class="p-5 pt-0">
                     <div class="w-full h-[1px] bg-gray-100 mb-4"></div>
-                    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Anjali,%20I%20want%20to%20order%20the%20Premium%20Cosmetics%20and%20Chocolate%20Mega%20Bouquet" target="_blank" class="w-full bg-pink-50 hover:bg-pink-600 text-pink-700 hover:text-white py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-center block transition">
+                    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Anjali,%20I%20want%20to%20order%20the%20New%20Arrival%20Special%20Bouquet" target="_blank" class="w-full bg-pink-50 hover:bg-pink-600 text-pink-700 hover:text-white py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-center block transition">
                         ऑर्डर इन्क्वायरी
                     </a>
                 </div>
@@ -120,8 +119,8 @@
             <!-- Item 2 (Image 1000006467.jpg Reference) -->
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-xs hover:shadow-xl transition duration-300 flex flex-col justify-between">
                 <div>
-                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('YOUR_IMAGE_URL_2')">
-                        <img src="YOUR_IMAGE_URL_2" alt="Teddy and Golden Chocolate Box" class="w-full h-full object-cover">
+                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('./1000006467.jpg')">
+                        <img src="./1000006467.jpg" alt="Teddy and Golden Chocolate Box" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500'">
                         <span class="absolute top-4 left-4 bg-pink-600 text-white text-[9px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase">Trending</span>
                     </div>
                     <div class="p-5">
@@ -140,8 +139,8 @@
             <!-- Item 3 (Image 1000006468.jpg Reference) -->
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-xs hover:shadow-xl transition duration-300 flex flex-col justify-between">
                 <div>
-                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('YOUR_IMAGE_URL_3')">
-                        <img src="YOUR_IMAGE_URL_3" alt="KitKat Red Rose Curly Ribbon Bouquet" class="w-full h-full object-cover">
+                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('./1000006468.jpg')">
+                        <img src="./1000006468.jpg" alt="KitKat Red Rose Curly Ribbon Bouquet" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500'">
                         <span class="absolute top-4 left-4 bg-purple-600 text-white text-[9px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase">Classic Choice</span>
                     </div>
                     <div class="p-5">
@@ -160,8 +159,8 @@
             <!-- Item 4 (Image 1000006469.jpg Reference) -->
             <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-xs hover:shadow-xl transition duration-300 flex flex-col justify-between">
                 <div>
-                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('YOUR_IMAGE_URL_4')">
-                        <img src="YOUR_IMAGE_URL_4" alt="Dairy Milk Crispello Purple Butterfly Bouquet" class="w-full h-full object-cover">
+                    <div class="relative aspect-[4/5] bg-slate-100 overflow-hidden cursor-pointer" @click="openModal('./1000006469.jpg')">
+                        <img src="./1000006469.jpg" alt="Dairy Milk Crispello Purple Butterfly Bouquet" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500'">
                         <span class="absolute top-4 left-4 bg-emerald-600 text-white text-[9px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase">Highly Custom</span>
                     </div>
                     <div class="p-5">
@@ -187,7 +186,7 @@
     </section>
 
     <!-- INTERACTIVE CUSTOMIZATION FORM SECTION -->
-    <section id="customize" class="bg-slate-100 py-20 px-4" x-data="{
+    <section id="customize" class="bg-slate-100 py-20 px-4" x-data={{
         giftType: 'Chocolate Bouquet',
         chocolateBrand: 'Dairy Milk & KitKat Combo',
         budget: '₹500 - ₹1000',
@@ -196,7 +195,7 @@
             let message = `नमस्ते अंजलि, मुझे एक गिफ्ट कस्टमाइज़ करवाना है:%0A%0A• गिफ्ट का प्रकार: ${this.giftType}%0A• पसंदीदा चॉकलेट: ${this.chocolateBrand}%0A• मेरा बजट रेंज: ${this.budget}`;
             window.open(base + message, '_blank');
         }
-    }">
+    }}>
         <div class="max-w-3xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
             <div class="p-6 sm:p-10 bg-gray-900 text-white text-center">
                 <h2 class="text-xl sm:text-2xl font-black uppercase tracking-wide">अपना कस्टमाइज्ड ऑर्डर बनाएं</h2>
@@ -204,7 +203,6 @@
             </div>
             
             <div class="p-6 sm:p-10 space-y-6">
-                <!-- Step 1 -->
                 <div>
                     <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">1. गिफ्ट का प्रकार चुनें</label>
                     <select x-model="giftType" class="w-full bg-slate-50 border border-gray-200 rounded-xl px-4 py-3 text-xs font-medium focus:outline-none focus:border-pink-500 text-gray-800">
@@ -215,7 +213,6 @@
                     </select>
                 </div>
 
-                <!-- Step 2 -->
                 <div>
                     <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">2. पसंदीदा चॉकलेट / कंटेंट्स</label>
                     <select x-model="chocolateBrand" class="w-full bg-slate-50 border border-gray-200 rounded-xl px-4 py-3 text-xs font-medium focus:outline-none focus:border-pink-500 text-gray-800">
@@ -226,7 +223,6 @@
                     </select>
                 </div>
 
-                <!-- Step 3 -->
                 <div>
                     <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">3. अपना बजट चुनें</label>
                     <div class="grid grid-cols-3 gap-3">
@@ -252,12 +248,11 @@
                 <span class="text-xs font-bold text-purple-600 tracking-wider uppercase block mb-2">100% Secure Flow</span>
                 <h2 class="text-2xl font-black text-gray-900 tracking-tight mb-4">पेमेंट कैसे करें?</h2>
                 <p class="text-xs text-gray-500 leading-relaxed mb-6">
-                    कस्टमाइजेशन की पूरी बातचीत व्हाट्सएप पर फाइनल होने के बाद, आपको फाइनल बिल भेजा जाएगा। आप किसी भी डिजिटल माध्यम (Google Pay, PhonePe, Paytm, या UPI ID) से सुरक्षित भुगतान पूरा कर सकते हैं।
+                    कस्टमाइजेशन की पूरी बातचीत व्हाट्सएप पर फाइनल होने के बाद, आपको फाइनल बिल भेजा जाएगा। आप किसी भी डिजिटल माध्यम से सुरक्षित भुगतान पूरा कर सकते हैं।
                 </p>
                 <div class="space-y-3.5 text-xs text-gray-700 font-medium">
                     <div class="flex items-center gap-3"><i class="fas fa-check-circle text-pink-500"></i> मर्चेंट नाम: Anjali (CraftCorner)</div>
                     <div class="flex items-center gap-3"><i class="fas fa-check-circle text-pink-500"></i> UPI हैंडल: anjali@upi (Sample Only)</div>
-                    <div class="flex items-center gap-3"><i class="fas fa-check-circle text-pink-500"></i> सपोर्ट: इंस्टेंट चैट असिस्टेंस</div>
                 </div>
             </div>
             <div class="bg-slate-50 border border-gray-200/60 p-6 rounded-2xl text-center flex flex-col items-center justify-center">
@@ -265,7 +260,6 @@
                     [ Secured QR Code ]
                 </div>
                 <h4 class="text-xs font-bold text-gray-800">स्कैन और पे सुरक्षित चैनल</h4>
-                <p class="text-[10px] text-gray-400 mt-1">ऑर्डर कन्फर्मेशन के बाद ही पेमेंट मान्य होगा।</p>
             </div>
         </div>
     </section>
@@ -279,6 +273,14 @@
         </div>
     </footer>
 
-    <!-- SECURITY ARCHITECTURE LOGIC (Anti-Copy, Anti-F12, Anti-Debugging) -->
+    <!-- SECURITY ARCHITECTURE LOGIC -->
     <script>
-        // Disable Hotkeys & DevT
+        document.addEventListener('keydown', function(e) {
+            if (e.keyCode == 123 || 
+                (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || 
+                (e.ctrlKey && e.keyCode == 85)) {
+                e.preventDefault();
+                return false;
+            }
+        });
+ 
